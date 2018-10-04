@@ -1,0 +1,568 @@
+#main-nav{
+    font-size: 14px;
+}
+
+
+.navbar-default{
+   border: none;
+
+}
+
+
+.cart-nav{
+    align-self: center;
+    padding-right: 10px;
+}
+
+.cart-align{
+    align-self: center;
+    margin: auto;
+}
+
+.cart-nav .fa{
+  font-size: 24px;
+}
+
+ul, li {
+    padding: 0px;
+    margin: 0px;
+}
+
+#page-top {
+    padding: 0px !important;
+
+    margin-bottom: 0px;
+}
+
+.hero-wrapper {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero-wrapper img {
+    margin: 0px auto;
+}
+
+.profile-header-bottom {
+    background: white;
+
+}
+.top-nav h2{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-nav .shop-avatar {
+
+    bottom: -87px;
+    left: 87px;
+    position: absolute;
+    transition: bottom .3s;
+    z-index: 3;
+
+}
+
+.shop-logo {
+
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
+
+.img-circle {
+    -moz-force-broken-image-icon: 1;
+    border-radius: 50%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.top-nav {
+    /*background-color: #fa6900;*/
+
+    background-color: #fa6900;
+
+    width: 100%;
+
+}
+
+.top-nav nav.nav-description {
+
+}
+
+.top-nav .nav-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.fa-stack {
+    position: relative;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    vertical-align: middle;
+}
+
+
+.top-nav ul#nav-button {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    padding: 10px;
+    /*justify-content: space-between;*/
+    position: relative;
+    text-align: left;
+}
+
+.top-nav ul li {
+    display: inline;
+    align-self: center;
+    color: white;
+
+}
+
+.top-nav ul .shop-name {
+
+}
+
+.top-nav ul .nav-button-inner {
+
+}
+
+.top-nav .send-message {
+    margin: 10px 0 10px 0;
+}
+
+.tab-wrapper {
+    margin-top: 80px;
+}
+
+
+
+
+
+.to-left{
+    float: left !important;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+/*#cart{*/
+    /*padding: 20px 0;*/
+/*}*/
+
+/*.cart{*/
+    /*padding: 20px 5px !important;*/
+/*}*/
+
+.navbar-form{
+    margin-top: 13px !important;
+}
+
+.top-nav .shop-desc li{
+    width: 100%;
+    font-size: 12px;
+}
+
+.fa{
+    font-size: 12px;
+}
+
+
+.owl-wrapper-outer{
+    border: none !important;
+
+
+}
+
+.promo > .owl-wrapper-outer{
+    border: none !important;
+
+    border-bottom: 1px solid #ddd !important;
+}
+
+
+.promo-title{
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+#notif-message > a > div > i.fa {
+    font-size: 20px;
+}
+#notif-orders > a > div > i.fa {
+    font-size: 20px;
+}
+
+#notif-order > a > div > i {
+    font-size: 20px;
+}
+#notif-order > a > div > button > i {
+    font-size: 20px;
+}
+
+#cart > button > i {
+        font-size: 20px;
+
+}
+@media screen and (max-width: 480px)  {
+    .navbar {
+        position: relative;
+    }
+    .brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -87px !important;  /* 50% of your logo width */
+        display: block;
+    }
+
+
+
+
+    .btn-lg{
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .top-nav {
+        margin-bottom: 20px;
+    }
+
+    .top-nav .shop-desc{
+        padding: 10px 10px 10px 110px;
+        color: white;
+
+        text-align: left;
+        font-size: 2rem;
+    }
+    .top-nav .shop-desc span{
+        padding-left: 10px;
+    }
+    .top-nav .shop-desc li{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .top-nav .nav-button{
+        /*padding: 0 0 10px 110px;*/
+
+        /*margin: 0px;*/
+
+        display: none;
+
+
+    }
+
+    .top-nav .shop-avatar-wrapper{
+        position: relative;
+    }
+
+    .top-nav .shop-avatar {
+
+        bottom: -62px;
+        left: 20px;
+        position: absolute;
+        transition: bottom .3s;
+        z-index: 3;
+
+    }
+
+    .shop-logo {
+
+        background: #fff;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        height: 80px;
+        position: relative;
+        width: 80px;
+    }
+
+    .hero-wrapper img {
+
+    }
+
+
+    .top-nav ul{
+        display: inline;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        position: relative;
+    }
+    .brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -87px !important;  /* 50% of your logo width */
+        display: block;
+    }
+
+
+    .top-nav {
+        margin-bottom: 20px;
+    }
+
+    .top-nav .shop-desc{
+        padding: 10px 10px 10px 110px;
+        color: white;
+
+        text-align: left;
+        font-size: 2rem;
+    }
+    .top-nav .shop-desc span{
+        padding-left: 10px;
+    }
+    .top-nav .shop-desc li{
+        width: 100%;
+    }
+
+    .top-nav .nav-button{
+        /*padding: 0 0 10px 110px;*/
+
+        /*margin: 0px;*/
+
+        display: none;
+
+
+    }
+
+    .top-nav .shop-avatar-wrapper{
+        position: relative;
+    }
+
+    .top-nav .shop-avatar {
+
+        bottom: -62px;
+        left: 20px;
+        position: absolute;
+        transition: bottom .3s;
+        z-index: 3;
+
+    }
+
+    .shop-logo {
+
+        background: #fff;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        height: 80px;
+        position: relative;
+        width: 80px;
+    }
+
+    .hero-wrapper img {
+
+    }
+
+
+    .top-nav ul{
+        display: inline;
+    }
+
+    .fa{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .navbar{
+        padding: 0 3%;
+    }
+
+    .mobile-button{
+        display: none;
+    }
+    .top-nav .shop-avatar-wrapper{
+        position: relative;
+    }
+
+    .top-nav .shop-desc{
+        padding: 10px 10px 10px 160px;
+        color: white;
+
+        text-align: left;
+        font-size: 3rem;
+    }
+    .top-nav .shop-avatar {
+
+        bottom: -87px;
+        left: 10px;
+        position: absolute;
+        transition: bottom .3s;
+        z-index: 3;
+
+    }
+
+    .top-nav .shop-logo {
+
+        background: #fff;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        height: 130px;
+        position: relative;
+        width: 130px;
+    }
+
+    .top-nav .nav-button{
+        padding: 10px 0;
+        text-align: right;
+        /*margin: 0px;*/
+
+        display: block;
+
+
+    }
+
+    .top-nav .shop-desc li{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+
+}
+
+@media screen and (min-width: 993px) {
+
+    .navbar{
+        padding: 0 3%;
+    }
+
+    .mobile-button{
+        display: none;
+    }
+
+    .top-nav .shop-avatar-wrapper{
+        position: relative;
+    }
+    .top-nav .shop-avatar {
+
+        bottom: -87px;
+        left: 10px;
+        position: absolute;
+        transition: bottom .3s;
+        z-index: 3;
+
+    }
+
+    .top-nav .shop-logo {
+
+        background: #fff;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        height: 150px;
+        position: relative;
+        width: 150px;
+    }
+
+    .top-nav .nav-button {
+        display: block;
+        padding: 0px;
+        padding-top: 13px;
+        text-align: right;
+    }
+
+    .top-nav .shop-desc{
+        margin: 10px 0;
+        color: white;
+        font-size: 3rem;
+        padding-left: 200px;
+    }
+
+    .top-nav .shop-desc li{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .top-nav .shop-desc h2{
+        color: white;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .navbar{
+        padding: 0 3%;
+    }
+
+    .top-nav .shop-avatar {
+
+        top: -87px;
+        left: 0px;
+        position: absolute;
+        transition: bottom .3s;
+        z-index: 3;
+
+    }
+
+    .top-nav .shop-logo {
+
+        background: #fff;
+        border: 5px solid #fff;
+        border-radius: 50%;
+        height: 200px;
+        position: relative;
+        width: 200px;
+    }
+
+
+
+
+    .top-nav .shop-avatar-wrapper{
+        position: relative;
+    }
+    .top-nav .nav-button {
+        padding: 0px;
+        padding-top: 13px;
+        text-align: right;
+        display: block;
+    }
+
+    .top-nav .shop-desc{
+        margin: 10px 0;
+        color: white;
+
+        padding-left: 230px;
+    }
+
+    .top-nav .shop-desc li{
+        width: 100%;
+    }
+
+    .top-nav .shop-desc h2{
+        color: white;
+    }
+    .top-nav ul .shop-name {
+
+        padding: 10px 0 10px 0;
+    }
+
+    .top-nav ul li {
+
+    }
+
+    .top-nav ul .shop-name {
+        padding: 0 10px;
+    }
+}
+
+
+
+
